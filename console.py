@@ -147,7 +147,7 @@ class HBNBCommand(cmd.Cmd):
                 print("** class doesn't exist **")
             else:
                 line_str = [str(obj) for key, obj in storage.all().items()
-                     if type(obj).__name__ == words[0]]
+                if type(obj).__name__ == words[0]]
                 print(line_str)
         else:
             line_str = [str(obj) for key, obj in storage.all().items()]
