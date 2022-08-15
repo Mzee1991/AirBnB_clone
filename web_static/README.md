@@ -1,1 +1,1 @@
-** Web Static AirBnB
+# web_static
